@@ -1,0 +1,35 @@
+﻿name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Use Windows PowerShell (5.1) to match local behavior + StrictMode
+      - name: Prepare synthetic data (data\raw)
+        shell: powershell
+        run: |
+          powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\ci_prepare_data.ps1 -StationCount 5 -IncidentCount 60 -Seed 42
+
+      - name: Run CI pipeline (validate + run_all)
+        shell: powershell
+        run: |
+          powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_ci.ps1
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: rail-audit-reports
+          path: reports/**
+          if-no-files-found: error

@@ -1,0 +1,16 @@
+﻿{
+  "name": "aed_events",
+  "required_columns": [
+    "incident_id",
+    "device_id",
+    "device_open_time_utc"
+  ],
+  "optional_columns": [
+    "pads_applied_time_utc",
+    "first_shock_time_utc",
+    "aed_present_on_scene",
+    "aed_used",
+    "log_source",
+    "notes"
+  ]
+}

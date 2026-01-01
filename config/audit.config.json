@@ -1,0 +1,12 @@
+﻿{
+  "LastUpdatedUtc": "2025-12-31T14:36:22.8250379Z",
+  "Targets": {
+    "TargetCallToShockSeconds": 300,
+    "TargetOpenToPadsSeconds": 60,
+    "TargetPadsToShockSeconds": 60
+  },
+  "Reporting": {
+    "TimeZoneForReports": "Europe/Bucharest",
+    "MinEventsToRankStation": 5
+  }
+}

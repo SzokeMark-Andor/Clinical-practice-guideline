@@ -1,0 +1,17 @@
+﻿{
+  "name": "stations",
+  "required_columns": [
+    "station_id",
+    "station_name",
+    "city",
+    "station_type",
+    "open_24_7"
+  ],
+  "optional_columns": [
+    "daily_footfall_est",
+    "levels_count",
+    "has_gates",
+    "has_platform_separation",
+    "notes"
+  ]
+}

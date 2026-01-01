@@ -1,0 +1,18 @@
+﻿{
+  "name": "incidents",
+  "required_columns": [
+    "incident_id",
+    "station_id",
+    "event_time_utc",
+    "zone",
+    "witnessed",
+    "bystander_cpr",
+    "ems_activated",
+    "ems_arrival_time_utc"
+  ],
+  "optional_columns": [
+    "platform_level",
+    "crowding_level",
+    "notes"
+  ]
+}

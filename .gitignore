@@ -1,0 +1,4 @@
+﻿reports/
+data/raw/
+examples/raw/
+*.bak_*
