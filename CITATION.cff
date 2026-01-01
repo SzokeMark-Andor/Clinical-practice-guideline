@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Clinical-practice-guideline"
+authors:
+  - family-names: "Szoke"
+    given-names: "Mark Andor"
+    email: "szoke_52@yahoo.com"
+url: "https://github.com/SzokeMark-Andor/Clinical-practice-guideline"
+repository-code: "https://github.com/SzokeMark-Andor/Clinical-practice-guideline"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-01-01"
+keywords:
+  - PowerShell
+  - reproducibility
+  - audit
+  - AED
+  - OHCA
+  - data-quality
