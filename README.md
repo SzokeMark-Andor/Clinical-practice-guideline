@@ -2,9 +2,9 @@
 
 [![CI](https://github.com/SzokeMark-Andor/Clinical-practice-guideline/actions/workflows/ci.yml/badge.svg)](https://github.com/SzokeMark-Andor/Clinical-practice-guideline/actions/workflows/ci.yml)
 
-Reproducible rail PAD/OHCA audit pipeline (PowerShell) that generates data-quality checks, time-interval metrics, and manuscript-ready outputs from CSV inputs.
+Implementation-audit toolkit (PowerShell) accompanying the clinical practice guideline manuscript on OHCA response and public-access defibrillation in railway/metro stations. It generates data-quality checks, time-interval metrics, and manuscript-ready outputs from CSV inputs.
 
-> **Disclaimer**: Research / quality-improvement software artifact. **Not medical advice** and **not** a clinical practice guideline.
+> **Disclaimer**: Research / quality-improvement software artifact. **Not medical advice.** The **clinical practice guideline** is reported in the manuscript; this repository provides the accompanying audit toolkit and does **not** constitute a guideline by itself.
 
 ---
 
